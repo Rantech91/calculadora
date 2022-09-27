@@ -5,7 +5,7 @@ import Pantalla from './componentes/Pantalla'
 import BotonClear from './componentes/BotonClear';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
-
+ 
 function App() {
 
   const [input, setInput] = useState('')
